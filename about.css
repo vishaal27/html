@@ -65,13 +65,13 @@ body{
 header{
 	background-color: #000000;
 	display:block;
-	height:520px;
-	padding:0px 0px 70px 0px;
+	height:520sp;
+	padding:0sp 0sp 70sp 0sp;
 }
 
 h1#head{
 	font-family:verdana;
-	font-size:80px;
+	font-size:80sp;
 	color:#ffffff;
 	text-decoration: none;
 }
@@ -83,11 +83,11 @@ h1#head{
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-          font-size:80px;
+          font-size:80sp;
 }
 
 #hov h1:hover{
-	font-size:100px;
+	font-size:100sp;
 }
 li#last{
 	float:right;
@@ -101,7 +101,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 16sp;
     text-decoration: none;
     -webkit-transition: all .5s ease;
      -moz-transition: all .5s ease;
@@ -120,8 +120,8 @@ li a:hover {
 }
 
 .grow img{
-	height: 200px;
-  	width: 150px;
+	height: 200sp;
+  	width: 150sp;
   
   	border-radius: 50%;
  
@@ -133,45 +133,45 @@ li a:hover {
 }
 
 .grow img:hover{
-	height:300px;
-	width:220px;
+	height:300sp;
+	width:220sp;
 }
 
 #left {
 position:absolute;
-top:210px;
-left:180px;
+top:210sp;
+left:180sp;
 display: inline-block;
 float:left;
-padding:10px;
+padding:10sp;
 }
 
 #center {
 position:absolute;
-top:210px;
-left:520px;
+top:210sp;
+left:520sp;
 display: inline-block;
-padding:10px;
+padding:10sp;
 }
 #right {
 position:absolute;
-top:210px;
-left:900px;
+top:210sp;
+left:900sp;
 display: inline-block;
 margin-right:50%;
-padding:10px;
+padding:10sp;
 }
 
 main{
 	
 	background: url("http://static.wixstatic.com/media/d75dff_980dc06d4ddf4391b765db7ab12de0b2.jpg_srz_1024_576_85_22_0.50_1.20_0.00_jpg_srz");
-	height:1900px;
+	height:1900sp;
 	
 }
 
 #school{
 	font-family:helvetica;
-	font-size:80px;
+	font-size:80sp;
 	color:#ffffff;
 	-webkit-transition: all .5s ease;
      -moz-transition: all .5s ease;
@@ -181,14 +181,14 @@ main{
 }
 
 #school:hover{
-	font-size:90px;
+	font-size:90sp;
 
 }
 
 #sch{
-	-moz-box-shadow: 0 0 20px #fff;
--webkit-box-shadow: 0 0 20px #fff;
-box-shadow: 0px 0px 20px #fff;
+	-moz-box-shadow: 0 0 20sp #fff;
+-webkit-box-shadow: 0 0 20sp #fff;
+box-shadow: 0sp 0sp 20sp #fff;
 -webkit-transition: all .5s ease;
      -moz-transition: all .5s ease;
        -o-transition: all .5s ease;
@@ -197,15 +197,15 @@ box-shadow: 0px 0px 20px #fff;
 }
 
 #sch:hover{
-	moz-box-shadow: 0 0 70px #fff;
--webkit-box-shadow: 0 0 70px #fff;
-box-shadow: 0px 0px 100px #fff;
+	moz-box-shadow: 0 0 70sp #fff;
+-webkit-box-shadow: 0 0 70sp #fff;
+box-shadow: 0sp 0sp 100sp #fff;
 }
 
 
 #des{
 
-	font-size:30px;
+	font-size:30sp;
 	color:#ffffff;
 } 
 
@@ -229,7 +229,7 @@ box-shadow: 0px 0px 100px #fff;
 }
 
 .wrapper{
-	width:1000px;
+	width:1000sp;
 	margin: 0 auto;
 }
 
