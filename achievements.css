@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+
+  background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg");
+  background-attachment: fixed;
+}
+
+main{
+	
+	background: url("http://static.wixstatic.com/media/d75dff_980dc06d4ddf4391b765db7ab12de0b2.jpg_srz_1024_576_85_22_0.50_1.20_0.00_jpg_srz");
+	height:2750px;
+	
+}
+
+
+header{
+	background-color: #000000;
+	display:block;
+	height:570px;
+	padding:0px 0px 70px 0px;
+	
+}
+
+footer{
+	background-color: #000000;
+	display:block;
+	padding:10px 10px 70px 10px;
+	margin-top: 0px;
+	height:70px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    font-family:helvetica;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li#last{
+	float:right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color:#000000;
+    transform:scale(1.2);
+
+
+}
+
+
+.grow img{
+	height: 300px;
+  	width: 250px;
+  
+  	border-radius: 50%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover{
+	height:400px;
+	width:350px;
+}
+
+
+#center {
+position:absolute;
+top:210px;
+left:490px;
+display: inline-block;
+padding:10px;
+}
+
+
+h1#head{
+	font-family:verdana;
+	font-size:80px;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+
+#hov h1{
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+          font-size:80px;
+}
+
+#hov h1:hover{
+	font-size:100px;
+}
+
+#school{
+	font-family:helvetica;
+	font-size:80px;
+	color:#ffffff;
+	-webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+#school:hover{
+	font-size:90px;
+
+}
+
+#sch{
+	-moz-box-shadow: 0 0 20px #fff;
+-webkit-box-shadow: 0 0 20px #fff;
+box-shadow: 0px 0px 20px #fff;
+-webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+#sch:hover{
+	-moz-box-shadow: 0 0 70px #fff;
+-webkit-box-shadow: 0 0 70px #fff;
+box-shadow: 0px 0px 100px #fff;
+}
+
+
+#des{
+
+	font-size:30px;
+	color:#ffffff;
+} 
+
+#vid{
+	font-family: verdana;
+	color:#c0c0c0;
+}
+
+#vid:hover{
+	color:#000000;
+}
+
+.wrapper{
+	width:1000px;
+	margin: 0 auto;
+}
